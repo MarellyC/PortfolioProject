@@ -1,10 +1,9 @@
 body {
-    font-family: 'Shadows Into Light', cursive;
-    background-color: wh ;
+    font-family:'Lato', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Shadows Into Light', cursive;
+    font-family:'Lato', sans-serif;
     
 }
 
@@ -45,9 +44,16 @@ a {
 }
 
 .navbar {
-    background-color:rgb(0, 183, 255)
+    background-color: lightblue
 }
+
+.card {
+    display:inline-block;
+}
+
 
 .jumbotron {
     margin: 0;
 }
+
+
