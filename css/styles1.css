@@ -44,7 +44,7 @@ a {
 }
 
 .navbar {
-    background-color: lightblue
+    background-image: linear-gradient(to right, #37dd7c, #30afc5, #106b54);
 }
 
 .card {
@@ -56,4 +56,7 @@ a {
     margin: 0;
 }
 
+.carousel {
+    border: solid #37ddb9;
+}
 
