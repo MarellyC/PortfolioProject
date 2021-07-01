@@ -43,3 +43,11 @@ a {
     color:white;
     font-weight: bold;
 }
+
+.navbar {
+    background-color:rgb(0, 183, 255)
+}
+
+.jumbotron {
+    margin: 0;
+}
