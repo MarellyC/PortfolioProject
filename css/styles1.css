@@ -1,0 +1,62 @@
+body {
+    font-family:'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family:'Lato', sans-serif;
+    
+}
+
+h2 {
+    color: #07744a;
+}
+
+h5 {
+    color: #07744a;
+    font-weight: bold;
+
+}
+
+header h2 {
+    color: #0a8533;
+}
+
+footer {
+    background-image: linear-gradient(#37dd7c, #30afc5, #106b54);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 20px;
+    background-image: linear-gradient(to right, #37dd7c, #30afc5, #106b54);
+    color: rgb(255, 255, 255);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+a {
+    color:white;
+    font-weight: bold;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #37dd7c, #30afc5, #106b54);
+}
+
+.card {
+    display:inline-block;
+}
+
+
+.jumbotron {
+    margin: 0;
+}
+
+.carousel {
+    border: solid #37ddb9;
+}
+
