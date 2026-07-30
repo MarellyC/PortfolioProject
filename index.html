@@ -2,9 +2,16 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Meta & Open Graph -->
+    <meta name="description" content="High Times Cafe — A friendly cafe offering infused and non-infused drinks, pastries, and weekend movies." />
+    <meta property="og:title" content="High Times Cafe" />
+    <meta property="og:description" content="A friendly cafe offering infused and non-infused drinks, pastries, and weekend movies." />
+    <meta property="og:image" content="/Images/background.jpg" />
+    <meta property="og:url" content="https://marellyc.github.io/PortfolioProject/" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Shadows+Into+Light&display=swap" />
@@ -15,6 +22,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
+    <!-- Favicon -->
+    <link rel="icon" href="/Images/assortment.jpg" />
+
     <!-- Additional CSS -->
     <link rel="stylesheet" href="css/styles1.css">
 
@@ -23,7 +33,7 @@
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
+    <header class="jumbotron jumbotron-fluid" role="banner">
         <div class="container">
             <div class="row row-content align-items-center">
                 <div class="col text-sm-center">
@@ -34,9 +44,9 @@
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" role="navigation">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar" aria-controls="nucampNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -50,32 +60,33 @@
         </div>
     </nav>
 
-    <div class="card-deck">
-        <div class="card">
-          <img src="Images/background.jpg" class="card-img-top" alt="baking">
-          <div class="card-body">
-            <h5 class="card-title">Welcome!</h5>
-            <p class="card-text">We cater to all serving both infused and non infused drinks along with sweet and savory pastries!
-                Kick back and enjoy a beer and play the slots or smoke up and relax.</p>
+    <main class="container py-4" role="main">
+        <div class="card-deck">
+            <div class="card">
+              <img src="Images/background.jpg" class="card-img-top" alt="baking" width="600" height="400" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Welcome!</h5>
+                <p class="card-text">We cater to all serving both infused and non infused drinks along with sweet and savory pastries!
+                    Kick back and enjoy a beer and play the slots or smoke up and relax.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Images/prerolls.jpg" class="card-img-top" alt="prerolls" width="600" height="400" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Mini Dispensary Availble!</h5>
+                <p class="card-text">We have a variety of THC/CBD/DELTA8 Pre-rolls available for purchase and consumption on site</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Images/movies.jpg" class="card-img-top" alt="movies" width="600" height="400" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Join us for movies on the weekends!</h5>
+                <p class="card-text">Email us some of your favorite movies and shows - If your idea is picked, you get any free item of
+                    your choosing.</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="Images/prerolls.jpg" class="card-img-top" alt="prerolls">
-          <div class="card-body">
-            <h5 class="card-title">Mini Dispensary Availble!</h5>
-            <p class="card-text">We have a variety of THC/CBD/DELTA8 Pre-rolls available for purchase and consumption on site</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="Images/movies.jpg" class="card-img-top" alt="movies">
-          <div class="card-body">
-            <h5 class="card-title">Join us for movies on the weekends!</h5>
-            <p class="card-text">Email us some of your favorite movies and shows - If your idea is picked, you get any free item of
-                your choosing.</p>
-          </div>
-        </div>
-      </div>
-
+    </main>
 
     <footer>
         <div class="container">
@@ -90,8 +101,8 @@
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
-                    <a href="http://instagram.com/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
-                    <a href="http://facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                    <a href="http://instagram.com/" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                    <a href="http://facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
                 </div>
                 <div class="col-sm-4 text-center">
                     <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-222-333-4567</a><br />
